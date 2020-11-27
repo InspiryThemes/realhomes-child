@@ -43,7 +43,7 @@ if ( ! function_exists( 'inspiry_enqueue_child_styles' ) ) {
 				'child-custom',
 				get_stylesheet_directory_uri() . '/css/child-custom.css',
 				array( 'child-default' ),
-				'1.4',
+				'1.4.2',
 				'all'
 			);
 
@@ -52,7 +52,7 @@ if ( ! function_exists( 'inspiry_enqueue_child_styles' ) ) {
 				'child-custom',
 				get_stylesheet_directory_uri() . '/js/child-custom.js',
 				array( 'jquery' ),
-				'1.4',
+				'1.4.2',
 				true
 			);
 		}
