@@ -23,7 +23,7 @@ if ( ! function_exists( 'inspiry_enqueue_child_styles' ) ) {
 				'parent-default',
 				get_template_directory_uri() . '/style.css',
 				array(),
-				INSPIRY_THEME_VERSION
+				'3.12.0'
 			);
 
 			// parent custom css.
@@ -34,7 +34,7 @@ if ( ! function_exists( 'inspiry_enqueue_child_styles' ) ) {
 				'child-default',
 				get_stylesheet_uri(),
 				array( 'parent-default' ),
-				'1.0',
+				'1.4.2',
 				'all'
 			);
 
