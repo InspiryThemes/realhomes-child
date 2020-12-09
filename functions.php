@@ -23,7 +23,7 @@ if ( ! function_exists( 'inspiry_enqueue_child_styles' ) ) {
 				'parent-default',
 				get_template_directory_uri() . '/style.css',
 				array(),
-				'3.12.0'
+				'3.12.1'
 			);
 
 			// parent custom css.
